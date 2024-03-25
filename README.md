@@ -66,16 +66,7 @@ The Command to run the test case for this constraint is:
 clingo ooasp.lp constraints.lp test-cases/id-instance-of-one-class/config-model.lp test-cases/id-instance-of-one-class/partial-instantiation.lp
 ```
 
-### 5. Every Attribute Value must belong to an instance**
-
-Ensures that attribute values are associated with instantiated objects.
-
-The Command to run the test case for this constraint is:
-```
-clingo ooasp.lp constraints.lp test-cases/attr-value-to-ins/config-model.lp test-cases/attr-value-to-ins/partial-instantiation.lp
-```
-
-### 6. Integer Value Below range
+### 5. Integer Value Below range
 
 Ensures that integer attribute values are not below the minimum inclusive value specified for them.
 
@@ -84,22 +75,13 @@ The Command to run the test case for this constraint is:
 clingo ooasp.lp constraints.lp test-cases/int-value-below-range/config-model.lp test-cases/int-value-below-range/partial-instantiation.lp
 ```
 
-### 7. Integer Value Above range
+### 6. Integer Value Above range
 
 Ensures that integer attribute values are not above the maximum inclusive value specified for them.
 
 The Command to run the test case for this constraint is:
 ```
 clingo ooasp.lp constraints.lp test-cases/int-value-above-range/config-model.lp test-cases/int-value-above-range/partial-instantiation.lp
-```
-
-### 7. Empty Instantiation
-
-Ensures that there should be an instantiation in the configuration
-
-The Command to run the test case for this constraint is:
-```
-clingo ooasp.lp constraints.lp test-cases/empty-instantiation/config-model.lp test-cases/empty-instantiation/partial-instantiation.lp
 ```
 
 ## Literature
