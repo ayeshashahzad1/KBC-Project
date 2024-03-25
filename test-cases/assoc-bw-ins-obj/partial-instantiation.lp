@@ -1,4 +1,4 @@
-% Partial instantiation for testing association constraint violation
+% for evaluating association constraint violations
 ooasp_instantiation("v1", "testInst").
 ooasp_isa("testInst", "ClassA", "object1").
 
